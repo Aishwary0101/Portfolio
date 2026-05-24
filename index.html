@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans antialiased">
+
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+        <div class="text-2xl font-bold gradient-text">NAME.</div>
+        <div class="space-x-6 hidden md:block">
+            <a href="#projects" class="hover:text-sky-400 transition">Projects</a>
+            <a href="#skills" class="hover:text-sky-400 transition">Skills</a>
+            <a href="mailto:your@email.com" class="bg-sky-600 px-5 py-2 rounded-full hover:bg-sky-500 transition">Hire Me</a>
+        </div>
+    </nav>
+
+    <header class="py-20 px-6 text-center max-w-4xl mx-auto">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6">
+            Building digital <span class="gradient-text">solutions</span> with purpose.
+        </h1>
+        <p class="text-slate-400 text-lg md:text-xl mb-10">
+            I'm a [Your Title] based in [Location]. I turn complex problems into simple, beautiful, and scalable results.
+        </p>
+    </header>
+
+    <section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 border-b border-slate-700 pb-4">Featured Work</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            
+            <div class="bg-slate-800/50 p-1 rounded-2xl border border-slate-700 hover:border-sky-500 transition">
+                <div class="p-6">
+                    <span class="text-sky-400 text-sm font-mono mb-2 block">Web App / React</span>
+                    <h3 class="text-2xl font-bold mb-3">Project Alpha</h3>
+                    <p class="text-slate-400 mb-6">A brief description of the problem you solved and the tech you used to do it.</p>
+                    <a href="#" class="text-white font-semibold underline decoration-sky-500">View Case Study →</a>
+                </div>
+            </div>
+
+            <div class="bg-slate-800/50 p-1 rounded-2xl border border-slate-700 hover:border-sky-500 transition">
+                <div class="p-6">
+                    <span class="text-sky-400 text-sm font-mono mb-2 block">Automation / Python</span>
+                    <h3 class="text-2xl font-bold mb-3">Project Beta</h3>
+                    <p class="text-slate-400 mb-6">Increased efficiency by 40% through automated data pipeline processing.</p>
+                    <a href="#" class="text-white font-semibold underline decoration-sky-500">View Case Study →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-12 text-center">Technical Ecosystem</h2>
+    
+    <div class="skills-grid">
+        <div class="skill-card major">
+            <div class="icon">⚛️</div>
+            <h3>Frontend Architecture</h3>
+            <p>React, Next.js, Tailwind CSS</p>
+            <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+        </div>
+
+        <div class="skill-card major">
+            <div class="icon">⚙️</div>
+            <h3>Backend Systems</h3>
+            <p>Node.js, PostgreSQL, GraphQL</p>
+            <div class="progress-bar"><div class="progress" style="width: 88%"></div></div>
+        </div>
+
+        <div class="skill-card tools">
+            <h4>Software & Cloud</h4>
+            <div class="badge-container">
+                <span class="badge">AWS</span>
+                <span class="badge">Docker</span>
+                <span class="badge">Git</span>
+                <span class="badge">Figma</span>
+                <span class="badge">Vercel</span>
+                <span class="badge">Redis</span>
+            </div>
+        </div>
+
+        <div class="skill-card soft-skills">
+            <h4>Workflow</h4>
+            <ul>
+                <li>✦ Agile / Scrum</li>
+                <li>✦ System Design</li>
+                <li>✦ Mentorship</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+    <footer class="py-12 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 [Your Name]. Built with caffeine and code.</p>
+    </footer>
+
+</body>
+</html>
